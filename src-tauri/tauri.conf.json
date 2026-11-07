@@ -14,8 +14,8 @@
     "windows": [
       {
         "title": "circle",
-        "width": 200,
-        "height": 200,
+        "width": 350,
+        "height": 350,
         "decorations": false,
         "transparent": true,
         "resizable": false,
