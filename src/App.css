@@ -6,3 +6,17 @@ body,
   background: transparent;
   overflow: hidden;
 }
+
+.ball {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: linear-gradient(#e66465, #9198e5);
+
+  transition-duration: 2s;
+
+  &:hover {
+    width: 350px;
+    height: 350px;
+  }
+}

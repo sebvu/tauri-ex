@@ -4,17 +4,7 @@
 import "./App.css";
 
 export default function App() {
-  return (
-    <div
-      data-tauri-drag-region
-      style={{
-        width: "100%",
-        height: "100%",
-        borderRadius: "50%",
-        background: "red",
-      }}
-    />
-  );
+  return <div data-tauri-drag-region className="ball" />;
 }
 
 // function App() {
